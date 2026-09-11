@@ -1,0 +1,6 @@
+{
+  "name": "Harvest Crate",
+  "description": "Farm-fresh apples delivered straight from the orchard to your door.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
