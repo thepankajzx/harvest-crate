@@ -1,4 +1,5 @@
 import { ArrowRight, ShieldCheck, Truck, Sparkles, Star, TreePine } from "lucide-react";
+import { asset } from "../lib/assets";
 
 export function Hero() {
   const scrollToProducts = () => {
@@ -83,7 +84,7 @@ export function Hero() {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/10 aspect-[4/5] sm:aspect-square lg:aspect-[4/5] group">
               <img
-                src="/IMAGES/2.jpg"
+                src={asset("IMAGES/2.jpg")}
                 alt="Fresh apples on Himalayan orchard tree"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { asset } from "../lib/assets";
 import { 
   User, 
   Package, 
@@ -283,7 +284,7 @@ export function Profile() {
                   {/* Shipment Item Preview */}
                   <div className="bg-stone-50 rounded-2xl p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div className="flex items-center gap-4">
-                      <img src="/IMAGES/3.jpg" alt="Mountain Fuji" className="w-16 h-16 rounded-xl object-cover border border-stone-200" />
+                      <img src={asset("IMAGES/3.jpg")} alt="Mountain Fuji" className="w-16 h-16 rounded-xl object-cover border border-stone-200" />
                       <div>
                         <h4 className="font-bold text-stone-900 text-sm">Mountain Fuji Apples</h4>
                         <p className="text-xs text-stone-500">10 Kg Wooden Crate · Crisp & Sweetest</p>
@@ -316,7 +317,7 @@ export function Profile() {
 
                   <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div className="flex items-center gap-4">
-                      <img src="/IMAGES/1.jpg" alt="Heritage Red" className="w-14 h-14 rounded-xl object-cover border border-stone-200" />
+                      <img src={asset("IMAGES/1.jpg")} alt="Heritage Red" className="w-14 h-14 rounded-xl object-cover border border-stone-200" />
                       <div>
                         <h5 className="font-bold text-stone-900 text-sm">Heritage Red Delicious</h5>
                         <p className="text-xs text-stone-500">5 Kg Crate · Delivered to Gurugram</p>
@@ -356,7 +357,7 @@ export function Profile() {
 
                   <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div className="flex items-center gap-4">
-                      <img src="/IMAGES/2.jpg" alt="Golden Orchard" className="w-14 h-14 rounded-xl object-cover border border-stone-200" />
+                      <img src={asset("IMAGES/2.jpg")} alt="Golden Orchard" className="w-14 h-14 rounded-xl object-cover border border-stone-200" />
                       <div>
                         <h5 className="font-bold text-stone-900 text-sm">Golden Orchard Apples</h5>
                         <p className="text-xs text-stone-500">10 Kg Wooden Crate · Honey-sweet</p>

@@ -1,9 +1,11 @@
+import { asset } from "../lib/assets";
+
 export function Gallery() {
   const images = [
-    { src: "/IMAGES/1.jpg", title: "Straight From the Hills" },
-    { src: "/IMAGES/2.jpg", title: "Picked at Dawn" },
-    { src: "/IMAGES/3.jpg", title: "Heritage Orchards" },
-    { src: "/IMAGES/4.jpg", title: "Fresh From the Orchard" },
+    { src: asset("IMAGES/1.jpg"), title: "Straight From the Hills" },
+    { src: asset("IMAGES/2.jpg"), title: "Picked at Dawn" },
+    { src: asset("IMAGES/3.jpg"), title: "Heritage Orchards" },
+    { src: asset("IMAGES/4.jpg"), title: "Fresh From the Orchard" },
   ];
 
   return (

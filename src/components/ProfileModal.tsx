@@ -1,5 +1,6 @@
 import { X, User, Package, MapPin, Phone, Mail, Clock, CheckCircle2, ChevronRight } from "lucide-react";
 import { useState } from "react";
+import { asset } from "../lib/assets";
 
 interface ProfileModalProps {
   isOpen: boolean;
@@ -87,7 +88,7 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
                   </span>
                 </div>
                 <div className="flex gap-3 items-center mb-2">
-                  <img src="/IMAGES/1.jpg" alt="Apple" className="w-12 h-12 rounded-xl object-cover" />
+                  <img src={asset("IMAGES/1.jpg")} alt="Apple" className="w-12 h-12 rounded-xl object-cover" />
                   <div>
                     <h5 className="font-bold text-stone-900 text-sm">Heritage Red Delicious</h5>
                     <p className="text-xs text-stone-500">10 Kg Wooden Crate · ₹2,799</p>
@@ -107,7 +108,7 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
                   </span>
                 </div>
                 <div className="flex gap-3 items-center">
-                  <img src="/IMAGES/2.jpg" alt="Apple" className="w-12 h-12 rounded-xl object-cover" />
+                  <img src={asset("IMAGES/2.jpg")} alt="Apple" className="w-12 h-12 rounded-xl object-cover" />
                   <div>
                     <h5 className="font-bold text-stone-900 text-sm">Golden Orchard Apples</h5>
                     <p className="text-xs text-stone-500">5 Kg Crate · Delivered last week</p>

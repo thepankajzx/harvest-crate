@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
+import { asset } from '../lib/assets';
 
 export type CartItem = {
   id: string;
@@ -32,7 +33,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       weight: "5 Kg",
       price: 1499,
       quantity: 1,
-      image: "/IMAGES/1.jpg"
+      image: asset("IMAGES/1.jpg")
     }
   ]);
   const [isCartOpen, setIsCartOpen] = useState(false);

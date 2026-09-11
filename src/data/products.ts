@@ -1,3 +1,5 @@
+import { asset } from "../lib/assets";
+
 export interface ProductBenefit {
   title: string;
   desc: string;
@@ -59,7 +61,7 @@ export const products: Product[] = [
       "5 Kg": 2000,
       "10 Kg": 4000
     },
-    image: "/IMAGES/apple_green_fresh.png",
+    image: asset("IMAGES/apple_green_fresh.png"),
     aboutFruit: "Our Tart Granny Smith is a refreshing contrast to sweeter cultivars. Its glossy, vivid emerald-green skin protects firm, snowy-white flesh that carries an invigorating zesty tang. Known for having one of the lowest glycemic indexes among tree fruits, it is the top choice for fitness enthusiasts and diabetic-conscious diets.",
     tasteProfile: {
       sweetness: 2,
@@ -114,7 +116,7 @@ export const products: Product[] = [
       "5 Kg": 1650,
       "10 Kg": 3300
     },
-    image: "/IMAGES/1.jpg",
+    image: asset("IMAGES/1.jpg"),
     aboutFruit: "Heritage Red Delicious is the crown jewel of high-altitude Himalayan orchards. Characterized by its classic heart shape, deep crimson blush, and fine-grained aromatic flesh, it delivers an instant nostalgic crunch. Grown naturally without synthetic growth promoters, its sweetness develops under intense mountain sunshine and chilling cold nights.",
     tasteProfile: {
       sweetness: 5,
@@ -169,7 +171,7 @@ export const products: Product[] = [
       "5 Kg": 1999,
       "10 Kg": 3998
     },
-    image: "/IMAGES/2.jpg",
+    image: asset("IMAGES/2.jpg"),
     aboutFruit: "Golden Orchard apples are renowned for their delicate, buttery-velvet texture and honeyed aromatic profile. With a glowing amber-yellow skin kiss-marked with a slight golden blush, they lack the tough tart skin of ordinary apples. Ideal for toddlers, seniors, and anyone who prefers tender, floral sweetness without intense jaw strain.",
     tasteProfile: {
       sweetness: 5,
@@ -224,7 +226,7 @@ export const products: Product[] = [
       "5 Kg": 2150,
       "10 Kg": 4300
     },
-    image: "/IMAGES/3.jpg",
+    image: asset("IMAGES/3.jpg"),
     aboutFruit: "Mountain Fuji is famous for having the highest natural sugar concentration (Brix rating) of any apple variety. Grown in high mountain belts where frost cools the trees overnight, the apple builds dense cellular sugar pockets. When you take a bite, it erupts with audible, thirst-quenching juice.",
     tasteProfile: {
       sweetness: 5,

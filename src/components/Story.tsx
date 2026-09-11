@@ -1,3 +1,5 @@
+import { asset } from "../lib/assets";
+
 export function Story() {
   return (
     <section className="py-24 bg-white overflow-hidden">
@@ -7,7 +9,7 @@ export function Story() {
           <div className="w-full lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-square">
               <img 
-                src="/IMAGES/5.jpg" 
+                src={asset("IMAGES/5.jpg")} 
                 alt="Our Founders in the Orchard"
                 className="w-full h-full object-cover"
               />
