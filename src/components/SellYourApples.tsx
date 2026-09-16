@@ -212,12 +212,12 @@ export function SellYourApples() {
           <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-400">
             <span>Direct helpline for orchard owners:</span>
             <a
-              href="https://wa.me/919876543210?text=Namaste,%20mujhe%20apne%20bagiche%20ke%20seb%20Harvest%20Crate%20ke%20through%20bechna%20hai"
+              href="https://wa.me/917018168156?text=Namaste,%20mujhe%20apne%20bagiche%20ke%20seb%20Harvest%20Crate%20ke%20through%20bechna%20hai"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-emerald-400 hover:underline font-bold"
             >
-              <MessageSquare size={16} /> WhatsApp: +91 98765 43210
+              <MessageSquare size={16} /> WhatsApp: +91 70181 68156
             </a>
           </div>
         </div>

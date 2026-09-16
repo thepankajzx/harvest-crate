@@ -11,17 +11,16 @@ export function Footer() {
             </p>
             <div className="space-y-2">
               <p className="text-stone-300"><strong>Email:</strong> support@harvestcrate.com</p>
-              <p className="text-stone-300"><strong>Phone:</strong> +91 98765 43210</p>
+              <p className="text-stone-300"><strong>Phone:</strong> +91 70181 68156</p>
               <p className="text-stone-300"><strong>Address:</strong> Orchard Valley, Shimla Hills</p>
             </div>
           </div>
           <div>
             <h4 className="text-white font-bold tracking-wider uppercase mb-6 text-sm">Explore</h4>
             <ul className="space-y-4 font-medium">
-              <li><a href="/" className="hover:text-brand-green transition-colors">Home</a></li>
-              <li><a href="/#products" className="hover:text-brand-green transition-colors">Shop Apples</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Our Story</a></li>
-              <li><a href="#" className="hover:text-brand-green transition-colors">Rent A Tree</a></li>
+              <li><a href="#/" className="hover:text-brand-green transition-colors">Home</a></li>
+              <li><a href="#products" className="hover:text-brand-green transition-colors">Shop Apples</a></li>
+              <li><a href="#sell-apples" className="hover:text-brand-green transition-colors">Sell Your Apples</a></li>
             </ul>
           </div>
           <div>

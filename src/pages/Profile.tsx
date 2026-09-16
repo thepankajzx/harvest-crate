@@ -203,12 +203,12 @@ export function Profile() {
                 Have questions about your crate or seasonal harvest batches?
               </p>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/917018168156?text=Namaste!%20Need%20help%20with%20my%20Harvest%20Crate%20account%20or%20orders."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full bg-brand-green text-white font-bold py-2.5 rounded-xl text-xs hover:bg-emerald-800 transition-colors"
               >
-                Chat on WhatsApp
+                Chat on WhatsApp (+91 70181 68156)
               </a>
             </div>
 
